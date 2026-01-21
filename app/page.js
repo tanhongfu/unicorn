@@ -1,6 +1,5 @@
 import Counter from "@/components/Counter";
-import Link from "next/link";
-import link from "next/link"; //this is used to import images//
+import Link from "next/link"; // this is used to import images
 
 
 export default function Home() {
@@ -10,7 +9,8 @@ export default function Home() {
         <Counter title="Counter #1" />
         <Counter title="Not a counter" />
       </main>
-      <Link href="/dashboard" className="underline"> // this is to optimize navigation between pages//
+      <Link href="/dashboard" className="underline">
+        {/* this is to optimize navigation between pages */}
         Dashboard
       </Link>
     </div>
